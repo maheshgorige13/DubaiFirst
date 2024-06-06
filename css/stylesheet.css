@@ -1,0 +1,430 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+font-family: 'Gotham-Bold';
+src: url('../fonts/Gotham-Bold.eot');
+src: url('../fonts/Gotham-Bold.woff2') format('woff2'),
+url('../fonts/Gotham-Bold.woff') format('woff'),
+url('../fonts/Gotham-Bold.ttf') format('truetype'),
+url('../fonts/Gotham-Bold.svg#Gotham-Bold') format('svg'),
+url('../fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'Gotham-Medium';
+src: url('../fonts/Gotham-Medium.eot');
+src: url('../fonts/Gotham-Medium.woff2') format('woff2'),
+url('../fonts/Gotham-Medium.woff') format('woff'),
+url('../fonts/Gotham-Medium.ttf') format('truetype'),
+url('../fonts/Gotham-Medium.svg#Gotham-Medium') format('svg'),
+url('../fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'Gotham-Book';
+src: url('../fonts/Gotham-Book.eot');
+src: url('../fonts/Gotham-Book.woff2') format('woff2'),
+url('../fonts/Gotham-Book.woff') format('woff'),
+url('../fonts/Gotham-Book.ttf') format('truetype'),
+url('../fonts/Gotham-Book.svg#Gotham-Book') format('svg'),
+url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype');
+font-weight: normal;
+font-style: normal;
+}
+*,*:before,*:after
+{
+box-sizing:border-box;
+}
+.clearfix:after
+{
+content:"";
+visibility:hidden;
+display:block;
+height:0;
+clear:both;
+}
+.clearfix:after
+{
+content:"";
+display:table;
+clear:both;
+}
+body
+{
+margin:0;
+border:0;
+padding:0;
+}
+.container
+{
+width:1260px;
+margin:0 auto;
+}
+.topheader
+{
+background-color:#dc1e35;	
+padding-top:1px;
+padding-bottom:50px;
+}
+.leftnavlist
+{
+float:left;	
+margin-left:-40px;	
+}
+.leftnavlist ul li
+{
+display:inline;
+list-style-type:none;	
+font-family: 'Gotham-Book';
+color:#ffffff;
+font-size:12px;	
+clear:both;	
+text-align: left;
+}
+.rightnavlist
+{
+float: right;	
+text-align: right;
+margin-right:0;
+}
+.rightnavlist ul li
+{	
+list-style-type: none;
+float: right;
+margin-left: 20px;	
+font-family: 'Gotham-Book';	
+font-size:12px;
+}
+.rightnavlist ul li a
+{
+color:#ffffff;
+text-decoration: none;
+}
+.boldtext
+{
+margin-left:10px;
+font-family: 'Gotham-Bold';	
+}
+ul li:hover a {
+color: #000000;
+}
+.logo
+{
+margin-bottom:10px;
+float:	left;	
+margin-top:10px;
+}
+.navigation
+{
+float:right;
+top:50%;
+padding-top:20px;
+}
+.navigation ul li
+{
+display:inline;
+margin-left:20px;
+}
+.navigation ul li a
+{
+text-decoration:none;
+font-family: 'Gotham-Medium';
+font-size:14px;
+color:#000000;
+margin-top:0;
+vertical-align: bottom;
+}
+.banner img
+{
+width:100%;
+}
+.searchfield
+{
+height:auto;
+position:absolute;	
+top:49%;
+background-color:#000000;
+padding-right:10px;	
+}
+.tabs
+{
+height:40px;
+background-color:#000000;
+width:120px;
+position:absolute;
+top:43.5%;	
+text-align: center;
+color:#ffffff;
+padding-top:15px;
+}
+.tabbuttons
+{
+color:#ffffff;
+font-family: 'Gotham-Book';
+font-size:14px;
+}
+
+.tabtitle
+{
+margin-left:10px;
+}
+.formfield
+{
+margin-left:-30px;
+clear:both;
+}
+.journey
+{
+float:left;
+margin-right:40px;	
+margin-left:44px;
+margin-top:30px;
+margin-bottom:30px;
+}
+.waytitle
+{
+margin-left:10px;
+}
+.waytype p
+{
+color:#ffffff;
+font-family: 'Gotham-Book';
+font-size:14px;
+}
+.holder
+{
+display:inline-block;
+clear:left;
+font-family: 'Gotham-Book';
+font-size:12px;	
+color:#ffffff;	
+}
+.fonttype
+{
+font-family: 'Gotham-Book';
+color:#000000;
+}
+input[type=text] {
+width: 216px;
+height:40px;
+padding: 12px 10px;
+margin: 0 3px;
+display: inline-block;      
+box-sizing: border-box;
+font-family: 'Gotham-Book';
+font-size:12px;
+}
+select {
+width: 170px;
+height:40px;
+padding: 12px 10px;
+margin: 0 3px;
+display: inline-block;      
+box-sizing: border-box;	
+font-family: 'Gotham-Book';
+font-size:12px;
+}
+input[type=submit] {
+width: 150px;
+height:40px;
+background-color: #dc1e35;
+color: #ffffff;
+padding: 14px 10px;    
+border: none;    
+cursor: pointer;
+font-family: 'Gotham-Bold';
+font-size:12px;
+margin: 0 4px;
+}
+.title
+{
+font-family: 'Gotham-Book';
+color:#000000;
+text-align: center;
+}
+.flightoffers
+{
+clear:both;
+background-color:#fafbfb;
+width:100%;
+padding-top:30px;
+}
+.cityfrom
+{
+padding-right:10px;
+}
+.cityto
+{
+padding-left:10px;
+}
+.whitebox
+{
+border: 1px solid#cbcbcb;	
+width:100%;
+margin-right:10px;
+vertical-align: middle;
+text-align: center;
+padding-top:30px;
+margin-bottom:40px;	
+background-color:#ffffff;
+}
+.airlines
+{
+margin-top:10px;
+font-family: 'Gotham-Bold';
+color:#000000;
+}
+.place
+{
+margin-top:-20px;
+font-family: 'Gotham-Book';
+color:#000000;
+}
+.price
+{
+text-align:right;
+padding:0;
+margin-top:-20px;
+margin-right:15px;
+font-family: 'Gotham-Book';
+color:#000000;
+}
+.blackstrip
+{
+background-color: #000000;
+height:80px;
+width:561px;
+opacity:0.8;
+position: absolute;
+top:65%;
+clear:both;
+}
+.caption
+{
+color:#ffffff;
+font-family: 'Gotham-Book';	
+text-align: center;
+clear:both;
+}
+.link
+{
+color:#ffffff;
+font-family: 'Gotham-Book';	
+text-align: center;
+margin-top:-10px;
+font-size:14px;
+}
+.heading
+{
+font-family: 'Gotham-Book';	
+color:#000000;
+text-align: center;
+}
+.leftimage
+{
+float:left;
+margin-right:60px;
+margin-bottom:60px;
+position:relative;	
+}
+footer
+{
+clear:both;
+}
+.footerheader
+{
+background-color:#333333;
+height:100px;
+}
+.aboutus
+{
+color:#ffffff;
+font-family: 'Gotham-Bold';
+font-size:14px;	
+}
+.aboutusinfo
+{
+color:#ffffff;
+font-family: 'Gotham-Book';
+font-size:14px;
+}
+.leftcontent
+{
+float:left;
+}
+.services
+{
+color:#ffffff;
+font-family:  'Gotham-Bold';
+font-size:14px;
+margin-left:255px;
+margin-right:255px;
+}
+.servicesinfo
+{
+color:#ffffff;
+font-family:  'Gotham-Book';
+font-size:14px;
+margin-left:255px;
+}
+.follow
+{
+color:#ffffff;
+font-family:  'Gotham-Bold';
+font-size:14px;
+float:right;
+}
+.socialicons
+{
+color:#ffffff;
+text-align: right;	
+}
+.socialicons li
+{
+margin-left:5px;
+}
+.leftcontent ul li
+{
+display:inline;
+list-style-type: none;
+text-align: right;
+}
+.footersection
+{
+background-color:#dc1e35;
+padding-top:3px;
+padding-bottom:4px;
+}
+.footerheader
+{
+background-color:#333333;
+height:100px;
+}
+.leftfooter
+{
+color:#ffffff;
+font-family: 'Gotham-Book';
+font-size:14px;
+float:left;
+margin-top:0px;
+vertical-align: middle;
+}
+.rightfooter
+{
+text-align: right;
+color:#ffffff;
+font-family: 'Gotham-Book';
+font-size:14px;
+}
+.rightfootertitle
+{
+margin-bottom: 20px;
+vertical-align: middle;
+}
+.rightfooter img
+{
+vertical-align: middle;
+margin-left:5px;
+}
